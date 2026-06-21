@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>德州扑克游戏 · 产品说明与使用建议</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f7f3ed;
+            font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+            color: #2c2b28;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+            max-width: 960px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page-wrap {
+            background: #fffbf7;
+            padding: 2.5rem 1.8rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.03), 0 1px 4px rgba(0,0,0,0.05);
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            color: #1f1c18;
+            border-left: 6px solid #b9946a;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+            margin-top: 0.2rem;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #6a5f52;
+            margin-top: -0.5rem;
+            margin-bottom: 2.4rem;
+            border-bottom: 1px solid #e2d8cc;
+            padding-bottom: 0.8rem;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #3b352f;
+            margin-top: 2.8rem;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px dashed #d8cdbd;
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: #4e443b;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+
+        .highlight-card {
+            background: #f1ebe2;
+            border-radius: 14px;
+            padding: 1.5rem 1.8rem;
+            margin: 2rem 0;
+            border-left: 8px solid #b78f6b;
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+        }
+
+        .highlight-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .insight-box {
+            background: #fff;
+            border: 1px solid #dad1c4;
+            border-radius: 16px;
+            padding: 1.5rem 1.8rem;
+            margin: 2rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+
+        .insight-box strong {
+            color: #7b5f44;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            list-style: none;
+            padding: 0;
+        }
+
+        .tag-list li {
+            background: #e5dbcf;
+            padding: 0.25rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            color: #3d342b;
+            letter-spacing: 0.01em;
+        }
+
+        .faq-item {
+            margin: 1.4rem 0;
+            padding: 0.8rem 1rem;
+            background: #faf7f2;
+            border-radius: 12px;
+        }
+
+        .faq-item p {
+            margin-bottom: 0.3rem;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: #4a3f34;
+        }
+
+        .faq-a {
+            color: #3d372f;
+        }
+
+        a {
+            color: #7a5f41;
+            text-decoration: none;
+            border-bottom: 1px dotted #b5997a;
+            transition: border 0.15s, color 0.15s;
+        }
+
+        a:hover,
+        a:focus {
+            color: #3f2f20;
+            border-bottom: 1px solid #7a5f41;
+        }
+
+        .nav-reminder {
+            margin-top: 2.8rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e4dace;
+            font-size: 0.95rem;
+            color: #5a4e40;
+        }
+
+        .nav-reminder a {
+            font-weight: 500;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ded3c5;
+            margin: 2.5rem 0 1rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem 0.8rem;
+            }
+            .page-wrap {
+                padding: 1.5rem 1rem;
+                border-radius: 16px;
+            }
+            h1 {
+                font-size: 1.8rem;
+                padding-left: 0.7rem;
+            }
+            .highlight-card,
+            .insight-box {
+                padding: 1.2rem 1.2rem;
+                margin: 1.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <h1>德州扑克游戏 · 产品说明</h1>
+    <div class="subhead">一份温和的指引 · 关于回访、收藏与持续关注</div>
+
+    <p>
+        对于许多牌桌爱好者来说，<strong>德州扑克游戏</strong>不仅是策略与胆识的交锋，更是一种需要反复练习和理解的智力活动。当你再次打开这个页面，或许是因为想要重新熟悉规则、想查阅某种牌型的概率，或者只是希望找到一个可以随时回归、保持手感的空间。无论是哪一种，我们都希望这份说明能帮你更好地理解这个平台，并为你的每一次访问带来连贯的体验。
+    </p>
+
+    <h2>一、为什么值得再次访问</h2>
+    <p>
+        很多玩家都有这样的经验：一段时间没有练习，读牌和计算的手感就会变钝。一个可以反复回到同一点、不需重新学习操作逻辑的环境，就成了一种隐性支持。<a href="https://wap-dezhougames.com">德州扑克游戏</a>在设计上保留了经典的核心体验，从翻牌前到河牌圈，每一步都力求清晰、直接。无论你是想快速模拟一个场景，还是仅仅浏览牌型，界面都会保持一致的响应习惯。
+    </p>
+    <p>
+        更重要的是，平台不设复杂的注册门槛，也没有强制留存的设计。你可以随时打开，随时离开，下一次回来时，所有的交互逻辑依然如故。这种克制，本身也是对玩家专注力的一种尊重。
+    </p>
+
+    <div class="highlight-card">
+        <p><strong>一个来自经验之谈的建议：</strong>如果一段时间没有上桌，不妨花两三分钟重新浏览一遍牌型等级与位置优势。你会发现，即使只是快速回顾，也足以让之后的几分钟决策效率明显提升。把这个页面收藏起来，当作一个可随时查阅的笔记点，是个不错的选择。</p>
+    </div>
+
+    <h2>二、亮点与实用细节</h2>
+    <p>
+        不同于那些充斥着动画和弹窗的同类页面，这个版本的<strong>德州扑克游戏</strong>选择了一种更接近“工具书”气质的呈现方式。牌面显示清晰，筹码变化节奏可控，没有多余的干扰元素。对于想要专注于策略思考的玩家来说，这种简洁反而是一种优势。
+    </p>
+    <ul class="tag-list">
+        <li>牌面与底池同步显示</li>
+        <li>位置提示与行动轮次分明</li>
+        <li>适合快速模拟与复盘</li>
+        <li>无强制广告弹窗</li>
+    </ul>
+    <p>
+        当然，这并不意味着它缺少变化。在持续的维护中，团队会根据反馈调整部分交互细节，但始终不会偏离“让玩家自己决定节奏”这一前提。如果你在体验中发现了令你感到顺畅或值得改进的地方，不妨在心里记下，等下一次访问时验证一下那些直觉。
+    </p>
+
+    <h2>三、使用建议与场景</h2>
+    <p>
+        如果你属于那种喜欢在零碎时间里琢磨策略的玩家，可以把页面当作一个“随身练习簿”。等车时、休息前，打开它，打一两手牌，思考一下弃牌与加注的平衡。不需要急于求成，也不用在意输赢——毕竟这里没有真金白银的压力，所有尝试都可以作为经验累积。
+    </p>
+    <p>
+        对于那些想要带新手朋友了解基本规则的玩家，这个页面也可以充当一个安静的演示屏。没有复杂的菜单层级，你只需要一边操作一边讲解，对方的注意力会自然集中在牌局逻辑本身。
+    </p>
+
+    <div class="insight-box">
+        <p><strong>📌 收藏与回访的小建议：</strong>如果你觉得这个平台与你当下的节奏合拍，不妨将网址加入浏览器收藏夹，或者记在笔记软件里。下一次想找它时，不需要重新搜索，直接点开就好。持续使用同一个环境，会让你对界面产生一种熟悉的直觉，从而更专注于牌局本身。</p>
+    </div>
+
+    <h2>四、FAQ 摘要</h2>
+    <div class="faq-item">
+        <p class="faq-q">问：是否需要注册或下载？</p>
+        <p class="faq-a">不需要。页面直接通过浏览器运行，无需注册，也无需安装任何程序。所有操作均在当前页面内完成。</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-q">问：数据或进度会保留吗？</p>
+        <p class="faq-a">当前版本为轻量体验设计，牌局数据仅存在于一次会话中。关闭页面后不会保存历史记录，这也意味着每次访问都是一次全新的开始——适合希望保持纯粹练习状态的玩家。</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-q">问：移动端和桌面端体验一致吗？</p>
+        <p class="faq-a">页面采用响应式布局，在手机、平板与桌面浏览器上均可正常操作。部分交互元素会根据屏幕宽度略有调整，但核心功能保持一致。</p>
+    </div>
+
+    <hr>
+
+    <p>
+        我们希望这个页面能成为你反复回访的一个安静站点。无论你此刻是想要重温规则、磨炼判断，还是仅仅想找一个熟悉的地方待一会儿——它都在这里。
+    </p>
+    <p>
+        如果你觉得这个环境适合自己，不妨把它保留在你的书签栏里。下一次，你依然可以通过<a href="https://wap-dezhougames.com">德州扑克游戏</a>这个熟悉的地址，直接回到这个没有干扰、只有牌桌与思考的空间。
+    </p>
+
+    <div class="nav-reminder">
+        <p>—— 保持耐心，保持观察。每一次回访，都是一次温和的练习。</p>
+    </div>
+</div>
+</body>
+</html>
